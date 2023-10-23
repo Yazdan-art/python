@@ -11,6 +11,6 @@ def over_sallary(over_time):
  return (160*rate)+(over_time*rate*1.5)
 #____________________________  
 if hour<=160 :
-  print (normal_sallary())
+  print ("Your sallary is : ",normal_sallary())
 else:
- print(over_sallary(over_time()))
+ print("Your sallary is : ",over_sallary(over_time()))
